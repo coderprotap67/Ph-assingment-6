@@ -23,12 +23,14 @@ const ProductCard = ({ data, setCartData, setTotal }) => {
                 <p className='leading-5 text-gray-600 mb-4'>{data.description}</p>
                 <h4 className='mb-5'><span className='text-2xl font-bold'>${data.price}</span><span className='text-gray-600'>/{data.period}</span></h4>
                 <div className='flex-grow'>
-                    {
-                        data.features.map((feature, index) => <p key={index} className='flex items-center gap-2'>
-                            <Check className='text-green-500' />
-                            {feature}
-                        </p>)
-                    }
+            {
+                data?.features?.map((feature, index) => (
+                    <p key={index} className='flex items-center gap-2'>
+                        <Check className='text-green-500' size={18} />
+                        {feature}
+                    </p>
+                ))
+            }
                 </div>
                 <button className='btn w-full mt-5 bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-3xl' onClick={() => handleAddToCart(data)}>Buy Now</button>
             </div>
