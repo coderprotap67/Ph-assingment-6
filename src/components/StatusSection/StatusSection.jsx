@@ -2,7 +2,7 @@ import React from 'react';
 
 const StatusSection = () => {
     return (
-        <div className='bg-linear-to-r from-blue-300 to-purple-300'>
+        <div className='bg-linear-to-r from-blue-700 to-purple-700'>
             <div className='flex max-sm:flex-col justify-between items-center text-center py-13 w-8/12 mx-auto text-white'>
 
                 <div>
