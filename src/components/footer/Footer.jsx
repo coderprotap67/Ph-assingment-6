@@ -29,6 +29,7 @@ const Footer = () => {
                     <div className='flex flex-col gap-2 max-sm:col-span-2'>
                         <a className='text-lg font-semibold'>Resources</a>
                         <a className='text-gray-100'>Documentation</a>
+                        <a className='text-gray-100'>Help Center</a>
                         <a className='text-gray-100'>Community</a>
                         <a className='text-gray-100'>Contact</a>
                     </div>

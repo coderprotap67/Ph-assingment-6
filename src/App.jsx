@@ -4,10 +4,9 @@ import HeaderSection from './components/header/HeaderSection';
 import HeroSection from './components/herosection/HeroSection';
 import StatusSection from './components/StatusSection/StatusSection';
 import ToogleSection from './components/toogleSection/ToogleSection';
-import GetStarted from './components/GetStarted/GetStarted';
+import GetStarted from './components/Start/Start';
 import Subscription from './components/subscription/Subscription';
 import Explore from './components/Explore/Explore';
-
 import Footer from './components/footer/Footer';
 
 
